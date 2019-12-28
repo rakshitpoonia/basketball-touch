@@ -25,7 +25,7 @@ stand=loadImage("stand1.png");
 
 //declaring class variables, creating engine and canvas
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(displayWidth,displayHeight);
   engine=Engine.create();
   world=engine.world;
    ball=new Ball(displayWidth-200,displayHeight-400);
